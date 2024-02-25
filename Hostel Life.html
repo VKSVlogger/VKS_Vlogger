@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: 10px;
+                background: aquamarine;
+            }
+            .header{
+                padding: 30px;
+                text-align: center;
+                background: white;
+                background-image: url(hostel\ gate.jpg);
+            }
+            .header h1{
+                    font-size: 50px;
+                    text-shadow: 0 0 2px black, 0 0 4px blue, 0 0 4px royalblue;
+                }
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .leftcolumn {   
+                float: left;
+                width: 74.3%;
+            }
+            .rightcolumn {
+                float: right;
+                width: 24.3%;
+                
+            }
+            img {
+                border-radius: 8px;
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                padding: 5px;
+            }
+            img:hover {
+                box-shadow: 2px 2px 4px black, 0 0 30px blue, 0 0 8px darkblue;
+            }
+
+            video{
+                border-radius: 8px;
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                padding: 5px;
+            }
+            video:hover{
+                box-shadow: 2px 2px 4px black, 0 0 30px blue, 0 0 8px darkblue;
+            }
+
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .footer {
+                padding: 20px;
+                font-size: medium;
+                text-align: center;
+                text-shadow: 5px 5px 10px rgb(68, 19, 204), 5px 5px 30px rgb(255, 0, 0), 5px 5px 25px rgb(250, 4, 4);
+                background: #ddd;
+                margin-top: 20px;
+            }
+
+            @media screen and (max-width: 800px) {
+                .leftcolumn, .rightcolumn {   
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>VKS_Vlogger</h1>
+            <p><b>Welcome to my website</b></p>
+        </div>
+
+        <div class="topnav">
+            <p><b><a href="https://youtube.com/@Vks_vlogger?si=Z1idzvQDT6DBZ7zy" target="_blank">Youtube</a></b></p>
+            <p><b><a href="https://www.instagram.com/vikash_5_2_6?igsh=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a></b></p>
+            <a href="#">Facebook</a>
+            <a href="https://t.me/VKS_Vlogger" style="float:right"><b>Telegram</b></a>
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h1>Hostel Life At Government Polytechnic Purnea</h1>
+                    <h2><Date:->07/12/2022</Date:-></h2>
+                    <p><b>First Day</b></p>
+                    <p style="font: bold;">On 7th December 2022, my hostel life begins. This was the first time I was staying in a hostel and surprisingly room number I got is 202, which also resembles my birth date. So, from there I find positive vibes.</p>
+                    <p><b>Experience</b><br>Every moment is a precious one. Every day we learned new things. There is freedom eveywhere. No need to ask Permission for going outside. <br><br><b>Holiday</b><br> The holiday is the best day there, we go to watch movies, go to the game zone, shopping, enjoying a lot. <br><br><b>Birthday</b><br> giving a surprise birthday party at sharp 12:00 am, and after cake cutting ceremony, we all dance till 2:00 am. Enjoying everything. <br><br><b>Room Sharing</b><br> Room sharing and gossips, clicking pictures, and also completing assignments, making presentation tirelessly and worring about what happened tomorrow during presentation time, and giving each other hope everything will be fine.<br><br><b>Breakfast</b><br>Sometime missing morning breakfast, calling friends to please bring breakfast for me. then planning to order food from zomato, or from near by shop like momos, pizza, burger. <br>Or suddenly planning to go outside for lunch or dinner. <br>Everytime clicking pitures when we all frinds together, cracking jokes, making fun of each other.</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2><span style="color: blue">some picture & clips</span></h2>
+                    <img src="hostel gate.jpg" alt="Cinque Terre" width="1000" height="300">
+                    <video src="birthday party.mp4"controls />
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Keep Smile</h2>
+        </div>
+
+    </body>
+</html>

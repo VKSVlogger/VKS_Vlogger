@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: aquamarine;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+  text-align: center;
+  background-image: url(web/hostel\ gate.jpg);
+}
+
+.header h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black, 0 0 30px blue, 0 0 8px darkblue;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 74.3%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 24.3%;
+  
+}
+
+/* Fake image */
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+img:hover {
+    box-shadow: 2px 2px 4px black, 0 0 30px blue, 0 0 8px darkblue;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(68, 19, 204), 5px 5px 30px rgb(255, 0, 0), 5px 5px 25px rgb(250, 4, 4);
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>VKS_Vlogger</h1>
+  <p><b>Welcome to my website.</b></p>
+</div>
+
+<div class="topnav">
+  <p><b><a href="https://youtube.com/@Vks_vlogger?si=Z1idzvQDT6DBZ7zy" target="_blank">Youtube</a></b></p>
+  <p><b><a href="https://www.instagram.com/vikash_5_2_6?igsh=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a></b></p>
+  <a href="#">Facebook</a>
+  <a href="https://t.me/VKS_Vlogger" style="float:right">Telegram</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Hostel</h2>
+      <h5>Hostel life, Feb 25, 2024</h5>
+      <img src="Hostel.jpg" alt="Cinque Terre" width="1000" height="300">
+      <p><b>My Hostel Life Experience..</b></p>
+      <p>I have stayed at home and studied at a regular school until Twelve standard and am living in the hostel for the last one years. With my experience, I can say that while both hostel life and home life are different and have their own set of pros and cons, hostel life is anytime better as we get a learn a lot from it. It is a great experience and shapes us for good. A student who has lived in a hostel is better prepared to take up various challenges in life. <a href="Hostel Life.html" style="color: #0509f3;">More</a></p>
+    </div>
+    <div class="card">
+      <h2>My College</h2>
+      <h5>College days, Feb 25, 2024</h5>
+      <img src="Collage main building.jpg" alt="Cinque Terre" width="1000" height="300">
+      <p><b>College Days Experience..</b></p>
+      <p>College is dreamland of every student’s educational career. It is a beautiful period of learning, enjoyment, freedom and friendship. Sweet memories of college life are simply amazing. They have an everlasting impact on human memory. College life has its own charm and beauty. Each and every moment spent there is always worth-living, worth-enjoying and also worth-remembering. Out of all the days, we can never forget the first day of college life. First day of college is really very special and memorable for every student.  The first of anything impresses us most. That is why we hardly ever forget our first love, our first success, our first friend. Likewise, we cannot forget our first day at college. <a href="college.html" style="color: #0509f3;">More</a></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="me1.jpg" alt="Cinque Terre" width="1000" height="300">
+      <p>Name-<b>Vikash Mourya.</b><br><b>Birth</b>-25th February 2002 <br><b>Occupation</b>- student<br><b>Education</b>-Study in Electrical Engineer from GP Purnea,<br><b>Village</b>- Dumraon Buxar Bihar 802133 <br><b>vik5264689@gmail.com</b></p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img src="dress up.jpg" alt="Cinque Terre" width="1000" height="300">
+      <img src="Collage Campus.jpg" alt="Cinque Terre" width="1000" height="300">
+      <img src="Hostel 1.jpg" alt="Cinque Terre" width="1000" height="300">
+      <img src="Hostel Top view.jpg" alt="Cinque Terre" width="1000" height="300">
+      <img src="Ground.jpg" alt="Cinque Terre" width="1000" height="300">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Like you my artical so share with your friends...</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Keep Smile</h2>
+</div>
+
+</body>
+</html>
